@@ -13,7 +13,7 @@ function playlist(url) {
         cwd: pathToFolder
     });
     
-    // log errors, if anyus
+    // log errors, if any
     video.on('error', function error(err) {
         console.log(err.stack);
     });
@@ -80,10 +80,8 @@ function playlist(url) {
     video.on('next', playlist);
 }
 
-
-
 var url = process.argv[2];                          // url from terminal
-var pathToFolder = process.argv[3];                 // download folder path from terminal
+var pathToFolder = process.argv[3];                 // download-folder path from terminal
 console.log("'\n' downloading playlist :: " + url);  
 
 playlist(url);                                      // pass url to function playlist()
