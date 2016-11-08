@@ -1,0 +1,20 @@
+{
+  "name": "youtube-playlist-dl",
+  "version": "1.0.0",
+  "description": "A NodeJs script to download all videos in a YouTube playlist.",
+  "main": "playlist.js",
+  "dependencies": {
+    "youtube-dl": "^1.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Youtube",
+    "playlist",
+    "download"
+  ],
+  "author": "enigmaeth",
+  "license": "ISC"
+}
