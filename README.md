@@ -31,7 +31,7 @@ $ curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 $ sudo apt-get install -y nodejs
 ```
 
-Download the [zip](https://nodejs.org/) and extract it into a directory. Change your path into the extracted folder: 
+Download the [zip](https://github.com/enigmaeth/youtube-playlist-dl/archive/master.zip) and extract it into a directory. Change your path into the extracted folder: 
 ```sh
 $ cd path/to/youtube-playlist-dl
 ```
